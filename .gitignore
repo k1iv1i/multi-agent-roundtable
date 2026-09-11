@@ -1,0 +1,19 @@
+# 密钥：绝不提交到仓库（云端在 Streamlit Cloud 后台配置）
+.streamlit/secrets.toml
+
+# 已废弃的实验数据（含旧数字，防止混入仓库造成混淆）
+归档_不进作品集/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE
+.idea/
+
+# 个人面试准备材料:本地保留,不进仓库
+话术背稿2.md
+简历项目描述2.md
+交接文档.md
